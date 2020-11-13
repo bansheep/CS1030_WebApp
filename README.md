@@ -15,4 +15,4 @@ Chapter 18 - Django installation and setup
 * Run `deactivate` while in virtual environment to stop it
 
 ## Starting the web application
-Make sure the virtual environment is started, then run `python manage.py runserver`. Then navigate to http://localhost:8000/admin/
+Make sure the virtual environment is started, then run `python manage.py runserver`. Then navigate to http://localhost:8000/ or http://localhost:8000/admin/
