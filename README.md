@@ -13,3 +13,6 @@ Chapter 18 - Django installation and setup
 ### Linux
 * Run `source ll_env/bin/activate` to start the virtual environment
 * Run `deactivate` while in virtual environment to stop it
+
+## Starting the web application
+Make sure the virtual environment is started, then run `python manage.py runserver`. Then navigate to http://localhost:8000/admin/
