@@ -7,8 +7,8 @@
     <meta name="viewport"  content="width=device-width, initial-scale=1,shringk-to-fit=no">
     <title>Learning Log</title>
     
-    {% boostrap_css %}
-  {% bootstrap_javascript jquery='ful' %%}
+    {% bootstrap_css %}
+  {% bootstrap_javascript jquery='full' %}
 
   </head>
   <body>
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light mb-4 border">
       <a class="navbar-brand" href="{% url 'learning_logs:index' %}">Learning Log</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse"
-		data-tartget="#navbarCollapse" aria-controls="navCollapse"
+		data-target="#navbarCollapse" aria-controls="navbarCollapse"
 		aria-expanded="false" aria-label="Toggle navigation">
       
       <span class="navbar-toggler-icon"></span></button>
@@ -48,7 +48,8 @@
 
     <main role="main" class="container">
       <div class="pb-2 mb-2 border-bottom">
-        {% black page_header %}{% endblock page_header %}
+        {% block page_header %}{% endblock page_header %}
+	
       </div>
       <div>
         {% block content %}{% endblock content %}
