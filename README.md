@@ -4,7 +4,8 @@ Web Application project for Fall 2020 CS 1030
 Source Code found in Chapters 18-20 of Python Crash Course, 2nd ed.
 
 - [x] Chapter 18 - Django installation and setup
-- [ ] Chapter 19 - User Accounts
+- [x] Chapter 19 - User Accounts
+- [ ] Chapter 20 - Styling and Deploying an App
 
 ## Starting and stopping virtual environment
 ### Windows
