@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'w(g(#z#ykec7s*mb*$_5d!b1zj7wr9f@9l-q*_*(^#97gby-g&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True 
 
 ALLOWED_HOSTS = []
 
@@ -130,7 +130,7 @@ STATIC_URL = '/static/'
 
 
 # My settings
-LOGIN_URL = '/users/login/'
+LOGIN_URL = 'users:login'
 
 
 # Heroku settings
